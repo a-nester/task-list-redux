@@ -63,10 +63,3 @@ export const rootReducer = combineReducers({
   tasks: taskReducer,
   filters: filtersReducer,
 });
-
-//     (state = {}, action) => {
-//   return {
-//     tasks: taskReducer(state.tasks, action),
-//     filters: filtersReducer(state.filters, action),
-//   };
-// };
